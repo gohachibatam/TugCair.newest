@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    tools:context=".UpdatePersonActivity"
+    >
+
+    <TextView
+        android:id="@+id/txViewFullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/convergence"
+        android:padding="20dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txViewNoKTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txViewFullname"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="42dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txViewAlamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="154dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txViewNoContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txViewFullname"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-35dp"
+        android:layout_marginEnd="146dp"
+        android:text="TextView"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/btnEditPerson"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="11dp"
+        android:layout_toStartOf="@+id/btnDeletePerson"
+        android:background="@drawable/btn_rounded"
+        android:padding="3dp"
+        tools:src="@drawable/ic_edit" />
+
+    <ImageView
+        android:id="@+id/btnDeletePerson"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@+id/btnLocationPerson"
+        android:background="@drawable/btn_rounded"
+        android:padding="3dp"
+        tools:src="@drawable/ic_rubbish_bin_delete_button" />
+
+    <ImageView
+        android:id="@+id/btnLocationPerson"
+        android:layout_width="22dp"
+        android:layout_height="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="29dp"
+        android:background="@drawable/btn_rounded"
+        android:padding="3dp"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="colorDustStorm">#DDD1C7</color>
+    <color name="colorSilver">#C2CFB2</color>
+    <color name="colorDarkSeaGreen">#8DB580</color>
+    <color name="colorMummyTomb">#7E8987</color>
+    <color name="colorIndependence">#4B4A67</color>
+    <color name="colorBlueOcean">#0074B9</color>
+    <color name="colorBlueSky">#6BBFED</color>
+
+</resources>

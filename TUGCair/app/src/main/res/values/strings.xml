@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TUGCair</string>
+    <string name="title_activity_dashboard_activity">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Surveyor</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_list_user">Data Personal</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_logout">Logout</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="save_signature">Save</string>
+    <string name="agreement">I agree the terms and conditions.</string>
+    <string name="clear_pad">Clear</string>
+</resources>
