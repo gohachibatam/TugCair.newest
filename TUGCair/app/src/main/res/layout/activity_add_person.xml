@@ -149,7 +149,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:background="@drawable/mybuttonshape"
-                android:text="ADD"
+                android:text="Tambah"
                 android:textColor="@android:color/white" />
 
         </LinearLayout>
